@@ -1,0 +1,19 @@
+body {
+  margin: 0.5in;
+}
+.menu {
+  background-color: #ecdd02;
+  width: 10%;
+  float: left;
+}
+.contenido {
+  width: 85%;
+  float: left;
+}
+header {
+  background-color: #ffb157;
+  clear: top;
+}
+footer {
+  clear: both;
+}
