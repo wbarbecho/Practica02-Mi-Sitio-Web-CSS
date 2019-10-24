@@ -5,6 +5,7 @@
 }
 
 .menu {
+  border-radius: 25px;
   margin: 15px;
   background-color: #ecdd02;
   width: 20vw;
