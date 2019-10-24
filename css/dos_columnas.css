@@ -1,0 +1,31 @@
+.logo {
+  clear: top;
+  width: auto;
+  background-color: #ffb157;
+}
+
+.menu {
+  margin: 15px;
+  background-color: #ecdd02;
+  width: 20vw;
+  height: auto;
+  float: left;
+}
+.contenido {
+  margin: 15px;
+  text-align: justify;
+  width: 60vw;
+  height: auto;
+  float: left;
+}
+#contenedor {
+  height: auto;
+  width: auto;
+}
+.contenido > h2 {
+  text-align: center;
+}
+
+footer {
+  clear: both;
+}
