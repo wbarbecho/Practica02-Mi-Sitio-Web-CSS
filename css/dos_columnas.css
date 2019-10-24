@@ -6,24 +6,25 @@
 
 .menu {
   border-radius: 25px;
-  margin: 12px;
+  margin: 10px;
   background-color: #ecdd02;
-  width: 20vw;
-  height: auto;
+  width: 17%;
+  height: fit-content;
   float: left;
+  display: block;
 }
 .contenido {
-  margin-left: 5px;
-  
-  margin-top: 5px; 
+  margin-right: 25px;
   text-align: justify;
-  width: 73%;
+  width: 75%;
   height: auto;
-  float: left;
+  display: block;
+  float: right;
 }
 #contenedor {
-  height: auto;
-  width: auto;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
 }
 .contenido > h2 {
   text-align: center;
