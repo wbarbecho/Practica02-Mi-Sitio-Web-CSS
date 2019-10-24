@@ -13,9 +13,11 @@
   float: left;
 }
 .contenido {
-  margin: 5px;
+  margin-left: 5px;
+  
+  margin-top: 5px; 
   text-align: justify;
-  width: 60vw;
+  width: 73%;
   height: auto;
   float: left;
 }
