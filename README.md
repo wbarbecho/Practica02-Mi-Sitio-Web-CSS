@@ -1,43 +1,40 @@
-# Practica02-Mi-Sitio-Web-CSS
-Comenzamos creando el index.html con la cual vamos a utilizar el modelo
-de 2 columnas en CSS, con esto se puede realizar las pruebas adecuadas
-para así posteriormente acoplar a las demás páginas.
+Practica02-Mi-Sitio-Web-CSS
+===========================
 
-Al momento de generar los archivos html usaremos selectores e ID para de
-esta manera identificar el o los elementos que deseamos agregar cierto
-estilo o modificación por medio de CSS. Dentro de HTML también usaremos
-la etiqueta "\<div\>" para que con esto nos permita tratar a los
-elementos como objetos diferentes dentro del body.
+Comenzamos creando el index.html con la cual vamos a utilizar el modelo de 2
+columnas en CSS, con esto se puede realizar las pruebas adecuadas para así
+posteriormente acoplar a las demás páginas.
 
-**\<div class=\"logo\"\>**
+Al momento de generar los archivos html usaremos selectores e ID para de esta
+manera identificar el o los elementos que deseamos agregar cierto estilo o
+modificación por medio de CSS. Dentro de HTML también usaremos la etiqueta
+“\<div\>” para que con esto nos permita tratar a los elementos como objetos
+diferentes dentro del body.
 
-Con eso agregamos los los estilos de CSS (aunque todavía no presente
-código) para de esta manera ir modificando el estilo de cada uno de
-estos.
+**\<div class="logo"\>**
 
-**\<link type=\"text/css\" rel=\"stylesheet\"
-href=\"css/estilos.css\"\>**
+Con eso agregamos los los estilos de CSS (aunque todavía no presente código)
+para de esta manera ir modificando el estilo de cada uno de estos.
 
-**\<link type=\"text/css\" rel=\"stylesheet\"
-href=\"css/dos\_columnas.css\"\>**
+**\<link type="text/css" rel="stylesheet" href="css/estilos.css"\>**
 
-Dentro de estilos.css seleccionamos el color de fondo y también la
-dimensión de HTML, este caso usaremos para ancho "width: 100vw", altura
-"heigh: 100vh". Estas unidades de vw y vh son "viewport" y estas son
-medidas relativas con lo cual se podría visualizar en diferentes
-resoluciones tales como de un dispositivo celular hasta un monitor de
-alta resolución.
+**\<link type="text/css" rel="stylesheet" href="css/dos_columnas.css"\>**
 
-![](media/image1.png){width="4.429166666666666in"
-height="2.616505905511811in"}
+Dentro de estilos.css seleccionamos el color de fondo y también la dimensión de
+HTML, este caso usaremos para ancho “width: 100vw”, altura “heigh: 100vh”. Estas
+unidades de vw y vh son “viewport” y estas son medidas relativas con lo cual se
+podría visualizar en diferentes resoluciones tales como de un dispositivo
+celular hasta un monitor de alta resolución.
 
-![](media/image2.png){width="3.7405621172353456in" height="4.1875in"}
+![](media/9c1bed2241c6af3484598af5948a070d.png)
 
-Como se puede apreciar en las imágenes en el primero esta maximizado
-mientas que el segundo caso se minimiza a su mínima dimensión.
+![](media/ba48a69487733644196d989a5a0cd6cb.png)
 
-De igual manera como se solicita la las etiquetas h1,h2,h3 presentan un
-diseño diferente[:]{.underline}
+Como se puede apreciar en las imágenes en el primero esta maximizado mientas que
+el segundo caso se minimiza a su mínima dimensión.
+
+De igual manera como se solicita la las etiquetas h1,h2,h3 presentan un diseño
+diferente*:*
 
 **h1 {**
 
@@ -67,51 +64,51 @@ diseño diferente[:]{.underline}
 
 **}**
 
-![](media/image1.png){width="2.075in" height="2.1632983377077863in"}
+![](media/9c1bed2241c6af3484598af5948a070d.png)
 
-La navegación de igual manera que se pide presenta bordes redondeados en
-este caso con un valor de 25px.
+La navegación de igual manera que se pide presenta bordes redondeados en este
+caso con un valor de 25px.
 
-![](media/image3.png){width="6.1375in" height="2.6319444444444446in"}
+![](media/1d63cf336365b0ea68254a2d076c0495.png)
 
-La ventana de formulario presenta un cambo para el nombre, email y
-mensaje cada uno de estos presenta una etiqueta para que su dimensión
-del área de texto sea la misma en el ancho, también se le asigna el
-espacio de las "cajas" de nombre email y mensaje.
+La ventana de formulario presenta un cambo para el nombre, email y mensaje cada
+uno de estos presenta una etiqueta para que su dimensión del área de texto sea
+la misma en el ancho, también se le asigna el espacio de las “cajas” de nombre
+email y mensaje.
 
 HTML
 
-**\<div id=\"formu\"\>**
+**\<div id="formu"\>**
 
 **            \<section\>**
 
 **                \<div\>**
 
-**                    \<label for=\"name\"\>Nombre:\</label\>**
+**                    \<label for="name"\>Nombre:\</label\>**
 
-**                    \<input type=\"text\" id=\"name\" /\>**
-
-**                \</div\>**
-
-**                \<div\>**
-
-**                    \<label for=\"mail\"\>E-mail:\</label\>**
-
-**                    \<input type=\"email\" id=\"mail\" /\>**
+**                    \<input type="text" id="name" /\>**
 
 **                \</div\>**
 
 **                \<div\>**
 
-**                    \<label for=\"msg\"\>Mensaje:\</label\>**
+**                    \<label for="mail"\>E-mail:\</label\>**
 
-**                    \<textarea id=\"msg\"\>\</textarea\>**
+**                    \<input type="email" id="mail" /\>**
 
 **                \</div\>**
 
-**                \<div class=\"button\"\>**
+**                \<div\>**
 
-**                    \<button type=\"submit\"\>Enviar mensaje\</button\>**
+**                    \<label for="msg"\>Mensaje:\</label\>**
+
+**                    \<textarea id="msg"\>\</textarea\>**
+
+**                \</div\>**
+
+**                \<div class="button"\>**
+
+**                    \<button type="submit"\>Enviar mensaje\</button\>**
 
 **                \</div\>**
 
@@ -157,54 +154,52 @@ CSS
 
 **}**
 
-**La evidencia del correcto diseño de las páginas HTML usando CSS. Para
-lo cual, se puede generar fotografías instantáneas (pantallazos).**
+**La evidencia del correcto diseño de las páginas HTML usando CSS. Para lo cual,
+se puede generar fotografías instantáneas (pantallazos).**
 
-![](media/image4.png){width="6.1375in" height="2.6083333333333334in"}
+![](media/c4852f9b5b0b35b0cf8c7ff2eb39ec1c.png)
 
-![](media/image5.png){width="6.1375in" height="3.025in"}
+![](media/757f47d947ed2db238876f7631e82ca8.png)
 
-![](media/image6.png){width="6.1375in" height="2.459722222222222in"}
+![](media/1eeb6cc50607c91851b0f87980f4dfb8.png)
 
-![](media/image7.png){width="6.1375in" height="2.797222222222222in"}
+![](media/6841c05311ee17e0b27362766b08a84c.png)
 
-![](media/image8.png){width="6.1375in" height="3.1284722222222223in"}
+![](media/2f9e7f534e3f49e088bfeb3203f60db9.png)
 
 Estilo de 3 columnas de una página.
 
 **La evidencia de la validación de cada página HTML.**
 
-![](media/image9.png){width="6.1375in" height="2.0375in"}
+![](media/148cdc6f87d0bebce6d1df1f8135d81b.png)
 
-![](media/image10.png){width="6.1375in" height="2.592361111111111in"}
+![](media/3119249eed57fd40478ec5662dc945b8.png)
 
-![](media/image11.png){width="6.1375in" height="1.8041666666666667in"}
+![](media/b76bd6567e7856c8549718b1f251e2eb.png)
 
-![](media/image12.png){width="6.1375in" height="2.1277777777777778in"}
+![](media/54329010a5cab2d1aadb001a4aa05425.png)
 
-![](media/image13.png){width="6.1375in" height="1.93125in"}
+![](media/e1eb5fd23baa71812d21d5b39f3a5c69.png)
 
-![](media/image14.png){width="6.1375in" height="1.8277777777777777in"}
+![](media/7b58ed2ee36a93921d61a0cc1fce9a1a.png)
 
 **La evidencia de la validación de las hojas de estilos CSS.**
 
-![](media/image15.png){width="4.060529308836395in" height="3.80625in"}
+![](media/8bf88f73b622e799a434801522b144c1.png)
 
-![](media/image16.png){width="3.618028215223097in"
-height="3.93125in"}![](media/image17.png){width="2.697451881014873in"
-height="3.8906649168853895in"}
+![](media/0f4bd85373b85af54de587ac0d735583.png)
 
-**En el informe se debe incluir la información de GitHub (usuario y URL
-del repositorio de la práctica)**
+![](media/a47e7d8d42d9b21a1d90edc7ff04fd2d.png)
+
+**En el informe se debe incluir la información de GitHub (usuario y URL del
+repositorio de la práctica)**
 
 Usuario: wbarbecho
 
-Link:
-[[https://github.com/wbarbecho/Practica02-Mi-Sitio-Web-CSS]{.underline}](https://github.com/wbarbecho/Practica02-Mi-Sitio-Web-CSS)
+Link: <https://github.com/wbarbecho/Practica02-Mi-Sitio-Web-CSS>
 
 **Tutorial**
 
 Usuario: wbarbecho
 
-Link:
-[[https://github.com/wbarbecho/Tutorial-02\-\--1TriAndSuccedSports]{.underline}](https://github.com/wbarbecho/Tutorial-02---1TriAndSuccedSports)
+Link: <https://github.com/wbarbecho/Tutorial-02---1TriAndSuccedSports>
