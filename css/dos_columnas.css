@@ -6,26 +6,31 @@
 
 .menu {
   border-radius: 25px;
-  margin: 10px;
   background-color: #ecdd02;
-  width: 18%;
+  max-width: 175px;
   height: fit-content;
+  width: 15%;
   float: left;
-  display: block;
+  margin: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
+
 .contenido {
-  margin-right: 25px;
   text-align: justify;
-  width: 70%;
   height: auto;
-  display: block;
-  float: right;
+  width: 75%;
+  float: left;
+  padding: 15px;
 }
 #contenedor {
   height: fit-content;
   width: fit-content;
-  margin: auto;
 }
 .contenido > h2 {
   text-align: center;
+}
+#formu {
+  margin: 20px;
+  float: left;
 }

@@ -9,8 +9,8 @@ body {
   color: rgb(151, 151, 151);
   background-color: #f1ebe4;
   font-family: Verdana, Geneva, sans-serif;
-  width: auto;
-  height: auto;
+  width: fit-content;
+  height: fit-content;
   margin: 5vh;
 }
 
@@ -50,15 +50,22 @@ h2 {
   color: rgb(91, 183, 219);
   text-align: center;
 }
-h3 {
+
+h3,
+h4 {
   font-size: 1em;
   color: black;
 }
 
+h4 {
+  text-align: center;
+}
+
 #formu {
   margin: 0 auto;
-  width: 500px;
-  padding: 1em;
+  float: left;
+  width: 400px;
+  padding: 2em;
 }
 
 #formu > section > div + div {
@@ -74,7 +81,7 @@ label {
 
 input,
 textarea {
-  width: 300px;
+  width: 250px;
   box-sizing: border-box;
 }
 
@@ -125,22 +132,19 @@ nav > ul > li > a:active {
 }
 
 /* Aside and Blockquote Styles */
-aside {
-  font-size: 0.8em;
-}
-aside blockquote {
+section blockquote {
   quotes: initial;
 }
-aside blockquote::before {
+.lateral > section > p::before {
   content: open-quote;
   font-style: inherit;
-  font-size: 1.6em;
+  font-size: 1em;
   font-weight: bold;
 }
 
-aside blockquote::after {
+.lateral > section > p::after {
   content: close-quote;
   font-style: inherit;
-  font-size: 1.6em;
+  font-size: 1em;
   font-weight: bold;
 }

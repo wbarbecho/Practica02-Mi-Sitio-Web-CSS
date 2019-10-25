@@ -3,12 +3,12 @@
   width: auto;
   background-color: #ffb157;
 }
-
+/*
 .menu {
   border-radius: 25px;
   margin: 10px;
   background-color: #ecdd02;
-  width: 14%;
+  width: fit-content;
   height: fit-content;
   float: left;
   display: block;
@@ -20,15 +20,33 @@
   height: auto;
   display: block;
   float: left;
-}
-.lateral {
-  margin-left: 25px;
-  margin-top: 30px;
-  text-align: justify;
-  width: 25%;
-  height: auto;
-  display: block;
+}*/
+.menu {
+  border-radius: 25px;
+  background-color: #ecdd02;
+  max-width: 175px;
+  height: fit-content;
+  width: 15%;
   float: left;
+  margin: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.contenido {
+  text-align: justify;
+  height: auto;
+  width: 50%;
+  float: left;
+  padding: 15px;
+}
+
+.lateral {
+  text-align: justify;
+  height: auto;
+  width: 19%;
+  float: left;
+  font-size: 11px;
 }
 #contenedor {
   height: fit-content;
