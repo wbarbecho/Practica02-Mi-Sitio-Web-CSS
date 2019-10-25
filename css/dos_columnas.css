@@ -8,7 +8,7 @@
   border-radius: 25px;
   margin: 10px;
   background-color: #ecdd02;
-  width: 17%;
+  width: 18%;
   height: fit-content;
   float: left;
   display: block;
@@ -16,7 +16,7 @@
 .contenido {
   margin-right: 25px;
   text-align: justify;
-  width: 75%;
+  width: 70%;
   height: auto;
   display: block;
   float: right;
@@ -28,8 +28,4 @@
 }
 .contenido > h2 {
   text-align: center;
-}
-
-footer {
-  clear: both;
 }
