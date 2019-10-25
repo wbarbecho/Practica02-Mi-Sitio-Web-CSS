@@ -18,7 +18,7 @@ body > div > footer {
   background-color: #2ecfb8;
   color: white;
   height: 5vh;
-  width:  auto;
+  width: auto;
   font-family: Helvetica, sans-serif;
   text-align: center;
 }
@@ -117,8 +117,28 @@ nav > ul > li > a:active {
 .contenido > section > article > ol > li > ol > li {
   clear: unset;
   list-style-type: square;
-  
 }
 .contenido > section > article > ol > li {
   list-style-type: upper-roman;
+}
+
+/* Aside and Blockquote Styles */
+aside {
+  font-size: 0.8em;
+}
+aside blockquote {
+  quotes: initial;
+}
+aside blockquote::before {
+  content: open-quote;
+  font-style: inherit;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+aside blockquote::after {
+  content: close-quote;
+  font-style: inherit;
+  font-size: 1.6em;
+  font-weight: bold;
 }
