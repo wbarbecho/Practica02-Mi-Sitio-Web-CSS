@@ -3,51 +3,35 @@
   width: auto;
   background-color: #ffb157;
 }
-/*
-.menu {
-  border-radius: 25px;
-  margin: 10px;
-  background-color: #ecdd02;
-  width: fit-content;
-  height: fit-content;
-  float: left;
-  display: block;
-}
-.contenido {
-  margin: 7px;
-  text-align: justify;
-  width: 50%;
-  height: auto;
-  display: block;
-  float: left;
-}*/
+
 .menu {
   border-radius: 25px;
   background-color: #ecdd02;
-  max-width: 175px;
   height: fit-content;
   width: 15%;
   float: left;
-  margin: 5px;
+  margin: 1.1%;
   text-overflow: ellipsis;
   overflow: hidden;
-}
-
-.contenido {
-  text-align: justify;
-  height: auto;
-  width: 50%;
-  float: left;
-  padding: 15px;
 }
 
 .lateral {
   text-align: justify;
   height: auto;
-  width: 19%;
-  float: left;
-  font-size: 11px;
+  width: 27%;
+  float: right;
+  font-size: small;
+  padding: 1.5%;
 }
+
+.contenido {
+  padding-left: 2%;
+  text-align: justify;
+  height: auto;
+  width: 50%;
+  display: inline-block;
+}
+
 #contenedor {
   height: fit-content;
   width: fit-content;

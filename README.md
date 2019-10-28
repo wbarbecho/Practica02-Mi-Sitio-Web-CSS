@@ -26,12 +26,22 @@ unidades de vw y vh son “viewport” y estas son medidas relativas con lo cual
 podría visualizar en diferentes resoluciones tales como de un dispositivo
 celular hasta un monitor de alta resolución.
 
-![](media/9c1bed2241c6af3484598af5948a070d.png)
+![](media/6f32b7da408cf68484478aa3c2da1eb1.png)
 
-![](media/ba48a69487733644196d989a5a0cd6cb.png)
+![](media/acf7bb1c79225dcda047143c2566fad5.png)
 
 Como se puede apreciar en las imágenes en el primero esta maximizado mientas que
 el segundo caso se minimiza a su mínima dimensión.
+
+![](media/b54001f3e518d34d6e6ca49b8bf1059f.png)
+
+![](media/33ef29380da2dfa01844dc93da435ac0.png)
+
+Clases e ID para estilo CSS.
+
+![](media/714f46c7a0ac498bf697123ca46d4563.png)
+
+Pseudo-clases para los hipervínculos.
 
 De igual manera como se solicita la las etiquetas h1,h2,h3 presentan un diseño
 diferente*:*
@@ -64,108 +74,38 @@ diferente*:*
 
 **}**
 
-![](media/9c1bed2241c6af3484598af5948a070d.png)
+![](media/0e6b37d3a53d42f7da3d15a38d96aaa6.png)
 
 La navegación de igual manera que se pide presenta bordes redondeados en este
 caso con un valor de 25px.
 
-![](media/1d63cf336365b0ea68254a2d076c0495.png)
+![](media/3d06cfecd3e331ae3366b352a56a7ed8.png)
 
 La ventana de formulario presenta un cambo para el nombre, email y mensaje cada
 uno de estos presenta una etiqueta para que su dimensión del área de texto sea
 la misma en el ancho, también se le asigna el espacio de las “cajas” de nombre
 email y mensaje.
 
-HTML
+**HTML**
 
-**\<div id="formu"\>**
+![](media/4c3718519432343169282ba89fae69d1.png)
 
-**            \<section\>**
+**CSS**
 
-**                \<div\>**
-
-**                    \<label for="name"\>Nombre:\</label\>**
-
-**                    \<input type="text" id="name" /\>**
-
-**                \</div\>**
-
-**                \<div\>**
-
-**                    \<label for="mail"\>E-mail:\</label\>**
-
-**                    \<input type="email" id="mail" /\>**
-
-**                \</div\>**
-
-**                \<div\>**
-
-**                    \<label for="msg"\>Mensaje:\</label\>**
-
-**                    \<textarea id="msg"\>\</textarea\>**
-
-**                \</div\>**
-
-**                \<div class="button"\>**
-
-**                    \<button type="submit"\>Enviar mensaje\</button\>**
-
-**                \</div\>**
-
-**            \</section\>**
-
-**        \</div\>**
-
-CSS
-
-**label {**
-
-**  display: inline-block;**
-
-**  width: 90px;**
-
-**  text-align: right;**
-
-**}**
-
-**input,**
-
-**textarea {**
-
-**  width: 300px;**
-
-**  box-sizing: border-box;**
-
-**}**
-
-**textarea {**
-
-**  vertical-align: top;**
-
-**  height: 5em;**
-
-**  resize: vertical;**
-
-**}**
-
-**.button {**
-
-**  padding-left: 175px;**
-
-**}**
+![](media/bdc1b21938a798e63b4ca13312da8f96.png)
 
 **La evidencia del correcto diseño de las páginas HTML usando CSS. Para lo cual,
 se puede generar fotografías instantáneas (pantallazos).**
 
-![](media/c4852f9b5b0b35b0cf8c7ff2eb39ec1c.png)
+![](media/52394ef90b997c36c49232535542c225.png)
 
-![](media/757f47d947ed2db238876f7631e82ca8.png)
+![](media/facedaaac1bcf5e223513b7276c47ec4.png)
 
-![](media/1eeb6cc50607c91851b0f87980f4dfb8.png)
+![](media/4f5141b2301c0625bab60f1f43c1e3de.png)
 
-![](media/6841c05311ee17e0b27362766b08a84c.png)
+![](media/39347bf0cde9d9616411207ef30f3af3.png)
 
-![](media/2f9e7f534e3f49e088bfeb3203f60db9.png)
+![](media/7cf27b4a7e46f25654641e9379e15669.png)
 
 Estilo de 3 columnas de una página.
 

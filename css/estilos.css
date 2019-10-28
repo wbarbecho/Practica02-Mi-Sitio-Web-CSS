@@ -2,7 +2,7 @@
 
 html {
   background-color: #11b2ec;
-  width: 100vw;
+  width: 95vw;
   height: 100vh;
 }
 body {
@@ -31,6 +31,15 @@ body > div > header {
   border-radius: 18px;
   height: 18vh;
   width: 35vw;
+}
+.imagen {
+  text-align: center;
+}
+
+.imagen > img {
+  border-radius: 3vh;
+  height: 25vh;
+  width: 25vw;
 }
 
 #titulo {
@@ -61,41 +70,36 @@ h4 {
   text-align: center;
 }
 
-#formu {
-  margin: 0 auto;
-  float: left;
-  width: 400px;
-  padding: 2em;
+/*Formulario*/
+#contacto {
+  margin-left: 1vh;
+  padding-left: 1vw;
 }
 
-#formu > section > div + div {
-  margin-top: 1em;
+.formu {
+  margin-left: 5vw;
+  width: 60%;
+}
+#contacto input[type="text"],
+#contacto input[type="email"],
+#contacto input[type="msg"],
+#contacto textarea {
+  width: 100%;
 }
 
-/*Inicio formulario*/
-label {
-  display: inline-block;
-  width: 90px;
-  text-align: right;
-}
-
-input,
-textarea {
-  width: 250px;
-  box-sizing: border-box;
-}
-
-textarea {
-  vertical-align: top;
-  height: 5em;
+#contacto textarea {
+  height: 10vh;
+  max-width: 100%;
   resize: vertical;
 }
 
-.button {
-  padding-left: 175px;
+#contacto button[type="submit"] {
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+  width: 100%;
+  font-size: 15px;
 }
-
-/*fin formulario*/
+/**/
 
 /* Navigation Styles */
 
@@ -132,17 +136,15 @@ nav > ul > li > a:active {
 }
 
 /* Aside and Blockquote Styles */
-section blockquote {
-  quotes: initial;
-}
-.lateral > section > p::before {
+
+.lateral > aside > p::before {
   content: open-quote;
   font-style: inherit;
   font-size: 1em;
   font-weight: bold;
 }
 
-.lateral > section > p::after {
+.lateral > aside > p::after {
   content: close-quote;
   font-style: inherit;
   font-size: 1em;
